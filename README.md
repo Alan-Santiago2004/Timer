@@ -1,4 +1,4 @@
-::Timer simples utilizando html, css e javascript
+::Stopwatch utilizando html, css e javascript
 
 
 ->https://timerdev-app.netlify.app
