@@ -1,5 +1,8 @@
 ::Timer simples utilizando html, css e javascript
 
+->https://timerdev-app.netlify.app
+
+
 -Nele podemos iniciar clicando em start;
 -Pausar clicando em pause;
 -E resetar clicando em reset;
