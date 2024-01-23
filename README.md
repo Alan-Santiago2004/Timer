@@ -1,1 +1,1 @@
-::Timer simples utilizando html,css e javascript
+::Timer simples utilizando html, css e javascript
