@@ -5,7 +5,6 @@ function cronometro(){
     const pause = document.querySelector('.pause');
     const reset = document.querySelector('.reset');
     const save = document.querySelector('.save');
-    const del = document.querySelector('.delete');
 
     let milliseconds = 0;
     let interval;
