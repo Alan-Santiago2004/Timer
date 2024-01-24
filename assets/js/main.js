@@ -1,6 +1,12 @@
 function cronometro(){
     const timer = document.querySelector('.timer');
     const timeSaved = document.querySelector('.time-saved');
+    const start = document.querySelector('.start');
+    const pause = document.querySelector('.pause');
+    const reset = document.querySelector('.reset');
+    const save = document.querySelector('.save');
+    const del = document.querySelector('.delete');
+
     let milliseconds = 0;
     let interval;
     let act = false;
@@ -35,6 +41,23 @@ function cronometro(){
     })
    
 
+    //keypress
+    document.addEventListener('keypress',function(e){
+        e.preventDefault();
+        const el = e.target;
+        if(e.key === 'Enter'){
+            start.click()
+        }
+        if(e.key === ' '){
+            pause.click()
+        }
+        if(e.key === 's'){
+            save.click()
+        }
+        if(e.key === 'r'){
+            reset.click()
+        }
+    })
 
     //save
     function createTimeSaved(mili){
