@@ -1,15 +1,17 @@
 ::Stopwatch utilizando html, css e javascript
 
 
+
 ->https://timerdev-app.netlify.app
 
 
--Nele podemos iniciar clicando em start;
 
--Pausar clicando em pause;
+-Nele podemos iniciar clicando em start('Enter');
 
--E resetar clicando em reset;
+-Pausar clicando em pause('space');
 
--Também conseguimos registrar o tempo clicando em save;
+-E resetar clicando em reset('r');
+
+-Também conseguimos registrar o tempo clicando em save('s');
 
 -Além de deletar o tempo salvo clicando em 'delete' ao lado do tempo registrado.
